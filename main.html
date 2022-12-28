@@ -13,7 +13,7 @@
 	<form class="row g-3 needs-validation" novalidate>
 		<div class="col-md-4">
 		  <label for="validationCustom01" class="form-label">First name</label>
-		  <input type="text" class="form-control" id="first-name-input" value="" required>
+		  <input type="text" class="form-control" id="[for=first-name-input]" value="" required>
 		  <div class="invalid-feedback">
 			First Name Required!
 		  </div>
@@ -29,7 +29,7 @@
 		  <label for="validationCustomUsername" class="form-label">Username</label>
 		  <div class="input-group has-validation">
 			<!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
-			<input type="text" class="form-control" id="email-input" aria-describedby="inputGroupPrepend" required placeholder="xyz@abc.com">
+			<input type="email" class="form-control" id="email-input" aria-describedby="inputGroupPrepend" required placeholder="xyz@abc.com">
 			<div class="invalid-feedback">
 			  Email Required!
 			</div>
@@ -44,7 +44,7 @@
 		</div>
 		<div class="col-md-3">
 		  <label for="validationCustom04" class="form-label">Graduation Year</label>
-		  <select class="form-select" id="validationCustom04" required>
+		  <select class="form-select" id="grad-year-select" required>
 			<option selected disabled value="">Choose...</option>
 			<option>2020</option>
 			<option>2021</option>
